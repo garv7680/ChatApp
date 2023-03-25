@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.message {
+    display: block;
+    padding: 8px 12px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.message-even {
+    background-color: #f8f8f8;
+}
+
+.message-odd {
+    background-color: #e8e8e8;
+}
